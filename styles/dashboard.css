@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.dashboard-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: sans-serif;
+  background-color: rgba(29, 207, 219, 0.5);
+}
+.dashboard-container {
+  background-color: rgb(255, 255, 255);
+  padding: 30px 40px;
+  width: 300px;
+}
+.dashboard-container h1 {
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.items-container,
+.delivery-fees-container,
+.tax-container,
+.total-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(100, 100, 100);
+}
+
+.logout-container button {
+  background-color: rgba(29, 207, 219, 0.5);
+  width: 100%;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  margin-bottom: 20px;
+  font-weight: bold;
+  cursor: grab;
+  transition: background-color 0.5s;
+}
+
+.logout-container button:hover {
+  background-color: rgb(29, 206, 219);}
